@@ -17,15 +17,15 @@ add_action('rest_api_init', 'university_custom_rest');
 
 function pageBanner($args = NULL) {
   
-      if (!isset($args['title'])) {
+  if (!$args['title']) {
     $args['title'] = get_the_title();
   }
 
-      if (!isset($args['subtitle'])) {
+  if (!$args['subtitle']) {
     $args['subtitle'] = get_field('page_banner_subtitle');
   }
 
-      if (!isset($args['photo'])) {
+  if (!$args['photo']) {
     if (get_field('page_banner_background_image') AND !is_archive() AND !is_home() ) {
       $args['photo'] = get_field('page_banner_background_image')['sizes']['pageBanner'];
     } else {
