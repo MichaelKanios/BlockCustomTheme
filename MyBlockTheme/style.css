@@ -5,5 +5,5 @@ Description: A custom block theme for WordPress.
 Version: 1.0
 */
 .wp-block-group.mainHeader {
-    background-image: url('images/test.jpg');
+    background-image: url('images/test.jpg') ,linear-gradient(#11364a,#0b7da5);
 }
