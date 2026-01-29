@@ -106,6 +106,27 @@
         ]
       }
     },
+    "styles":{
+      "typography": {
+        "fontFamily":"inter",
+        "fontSize":"18px",
+        "lineHeight":"1.6"
+      },
+      "elements": {
+        "heading":{
+          "typography": {
+            "fontFamily":"quatrocento",
+            "fontWeight":"700",
+            "lineHeight":"1.2"
+          }
+        },
+        "link":{
+          "typography": {
+            "textDecoration":"underline"
+          }
+        }
+      }
+    },
     
     "templateParts": {
       "header": {
