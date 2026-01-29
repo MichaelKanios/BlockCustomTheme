@@ -1,5 +1,5 @@
 <?php
-//diable default block patterns
-remove _theme_support( 'core-block-patterns' );
+//disable default block patterns
+remove_theme_support( 'core-block-patterns' );
 
 ?>
