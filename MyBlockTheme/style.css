@@ -5,5 +5,5 @@ Description: A custom block theme for WordPress.
 Version: 1.0
 */
 .mainHeader {
-    background-image: url(image/test.jpg);
+    background-image: url(images/test.jpg);
 }
