@@ -9,4 +9,10 @@ function myblocktheme_enqueue_styles() {
 	wp_enqueue_style( 'myblocktheme-style', get_stylesheet_uri(),array(),wp_get_theme()->get( 'Version' ) );
 }	
 add_action( 'wp_enqueue_scripts', 'myblocktheme_enqueue_styles' );
+
+//Enqueue editor styles
+function enqueue_editor_styles() {	
+	add_editor_style( 'style.css' );
+}
+add_action( 'admin_init', 'enqueue_editor_styles' );
 ?>
