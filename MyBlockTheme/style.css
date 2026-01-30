@@ -11,7 +11,8 @@ Version: 1.0
     padding: 1rem 0;
 }
 .wp-block-group.mainHeader nav a{
-    color: #fff;
+    color: black;
+    font-size: 1.1rem;
 }
 
 /* Base font style */
