@@ -52,3 +52,19 @@ h1, h2, h3 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+/*Post page style */
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto 10rem;
+    padding: 0 1rem;
+}
+.sidebar {
+    max-width: 800px;
+    margin:auto
+}
+.main-layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+}
