@@ -52,7 +52,7 @@
     },
     "elements": {
       "footer": {
-        "color": { "background": "var(--wp--preset--color--primary)", "text": "#ffffff" },
+        "color": { "background": "#0073aa", "text": "#ffffff" },
         "spacing": { "padding": { "top": "4rem", "bottom": "2rem" } },
         "typography": { "fontSize": "0.9rem" }
       },
