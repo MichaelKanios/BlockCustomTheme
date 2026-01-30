@@ -68,3 +68,27 @@ h1, h2, h3 {
     flex-wrap: wrap;
     gap:2rem;
 }
+/*article*/
+.main-layout > *:first-child{
+    flex :0 0 100%;
+    max-width: 100%;
+}
+/*sidebar*/
+.main-layout > *:last-child{
+    flex : 0 0 100%;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    /*article*/
+    .main-layout > *:first-child{
+        flex :0 0 60%;
+        max-width: 60%;
+    }
+    /*sidebar*/
+    .main-layout > *:last-child{
+        flex : 0 0 30%;
+        max-width: 30%;
+    }
+    
+}
