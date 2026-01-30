@@ -1,145 +1,70 @@
-  {
-    "$schema": "https://schemas.wp.org/trunk/theme.json",
-    "version": 2,
-    "settings":{
-      "layout": {
-        "contentSize": "800px",
-        "wideSize": "1200px"
-      },
-      "appearanceTools": true,
-      "color": {
-        "defaultPalette": false,
-        "palette": [
-          {
-            "slug": "Neutral",
-            "color": "#989898",
-            "name": "Neutral"
-          },
-          {
-            "slug": "Primary",
-            "color": "#0073aa",
-            "name": "Primary" 
-          },{
-            "slug": "Secondary",
-            "color": "#d54e21",
-            "name": "Secondary" },
-          {
-            "slug": "Tertiary",
-            "color": "#46b450",
-            "name": "Tertiary"
-          }
-        ],
-        "gradients": [
-          {
-            "slug": "primary-gradient",
-            "gradient": "linear-gradient(#11364a,#0b7da5)",
-            "name": "Primary Gradient Blue"
-          }
-        ],
-        "custom": true,
-        "link": true,
-        "background": true
-      },
-      "typography": {
-        "fontFamilies": [
-          {
-            "fontFamily": "'Quantrocento',serif",
-            "name": "Quantrocento",
-            "slug": "quantrocento",
-            "fontFace": [
-              {
-                "fontFamily": "'Quantrocento',serif",
-                "fontStyle": "normal",
-                "fontWeight": "400",
-                "src": "url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap')"
-              },
-              {
-                "fontFamily": "'Quantrocento',serif",
-                "fontStyle": "italic",
-                "fontWeight": "400",
-                "src": "url('https://fonts.googleapis.com/css2?family=Quattrocento:ital,wght@1,400&display=swap')"
-              },
-              {
-                "fontFamily": "'Quantrocento',serif",
-                "fontStyle": "normal",
-                "fontWeight": "700",
-                "src": "url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap')"
-              },
-              {
-                "fontFamily": "'Quantrocento',serif",
-                "fontStyle": "italic",
-                "fontWeight": "700",
-                "src": "url('https://fonts.googleapis.com/css2?family=Quattrocento:ital,wght@1,700&display=swap')"
-              }        
-
-            
-            ]
-          
-          },
-          {
-            "fontFamily": "'Poppins',sans-serif",
-            "name": "Poppins",
-            "slug": "poppins",
-            "fontFace": [
-              {
-                "fontFamily": "'Poppins',sans-serif",
-                "fontStyle": "normal",
-                "fontWeight": "400",
-                "src": "url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')"
-              },
-              {
-                "fontFamily": "'Poppins',sans-serif",
-                "fontStyle": "italic",
-                "fontWeight": "400",
-                "src": "url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400&display=swap')"
-              },
-              {
-                "fontFamily": "'Poppins',sans-serif",
-                "fontStyle": "normal",
-                "fontWeight": "700",
-                "src": "url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap')"
-              },
-              {
-                "fontFamily": "'Poppins',sans-serif",
-                "fontStyle": "italic",
-                "fontWeight": "700",
-                "src": "url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap')"
-              }        
-            ]
-          }
-        ]
-      }
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
     },
-    "styles":{
-      "layout": {
-        "contentSize": "800px",
-        "wideSize": "1200px"
-      },
-      "typography": {
-        "fontFamily":"inter",
-        "fontSize":"18px",
-        "lineHeight":"1.6"
-      },
-      "elements": {
-        "heading":{
-          "typography": {
-            "fontFamily":"quatrocento",
-            "fontWeight":"700",
-            "lineHeight":"1.2"
-          }
+    "appearanceTools": true,
+    "color": {
+      "defaultPalette": false,
+      "palette": [
+        { "slug": "Neutral", "color": "#989898", "name": "Neutral" },
+        { "slug": "Primary", "color": "#0073aa", "name": "Primary" },
+        { "slug": "Secondary", "color": "#d54e21", "name": "Secondary" },
+        { "slug": "Tertiary", "color": "#46b450", "name": "Tertiary" }
+      ],
+      "gradients": [
+        { "slug": "primary-gradient", "gradient": "linear-gradient(#11364a,#0b7da5)", "name": "Primary Gradient Blue" }
+      ],
+      "custom": true,
+      "link": true,
+      "background": true
+    },
+    "typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "'Quantrocento', serif",
+          "name": "Quantrocento",
+          "slug": "quantrocento",
+          "fontFace": [
+            { "fontFamily": "'Quantrocento', serif", "fontStyle": "normal", "fontWeight": "400", "src": "url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap')" },
+            { "fontFamily": "'Quantrocento', serif", "fontStyle": "normal", "fontWeight": "700", "src": "url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@700&display=swap')" }
+          ]
         },
-        "link":{
-          "typography": {
-            "textDecoration":"underline"
-          }
+        {
+          "fontFamily": "'Poppins', sans-serif",
+          "name": "Poppins",
+          "slug": "poppins",
+          "fontFace": [
+            { "fontFamily": "'Poppins', sans-serif", "fontStyle": "normal", "fontWeight": "400", "src": "url('https://fonts.googleapis.com/css2?family=Poppins&display=swap')" },
+            { "fontFamily": "'Poppins', sans-serif", "fontStyle": "normal", "fontWeight": "700", "src": "url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap')" }
+          ]
         }
-      }
+      ]
+    }
+  },
+  "styles": {
+    "layout": {
+      "contentSize": "800px",
+      "wideSize": "1200px"
     },
-    
-    "templateParts": {
-      "header": {
-        "title": "My Header",
-        "area": "header"
+    "elements": {
+      "footer": {
+        "color": { "background": "var(--wp--preset--color--primary)", "text": "#ffffff" },
+        "spacing": { "padding": { "top": "4rem", "bottom": "2rem" } },
+        "typography": { "fontSize": "0.9rem" }
+      },
+      "heading": {
+        "typography": { "fontFamily": "quatrocento", "fontWeight": "700", "lineHeight": "1.2" }
+      },
+      "link": {
+        "typography": { "textDecoration": "underline" }
       }
     }
+  },
+  "templateParts": {
+    "header": { "title": "My Header", "area": "header" }
   }
+}

@@ -45,3 +45,10 @@ h1, h2, h3 {
     margin-left: 0 !important ;
     margin-right: 0 !important ;
 }
+.footer-inner {
+  max-width: 1200px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
