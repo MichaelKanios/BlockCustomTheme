@@ -18,3 +18,24 @@ h1, h2, h3 {
     font-family: 'Quantrocento', serif;
     font-weight: 700;
 }
+/*Content width fixes*/
+.entry-content,
+.wp-block-post-content,
+.wp-block-group.is-layout-constrained {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+/*Ensure wide align can reach 1200px*/
+.wp-block-group.alignwide {
+    max-width: 1200px !important;
+    width: 100% !important;
+    margin-left: auto !important ;
+    margin: auto !important ;
+}
+/*Ensure full align can reach 100% of viewport*/
+.wp-block-group.alignfull {
+    width: 100vw !important;
+    margin-left: 0 !important ;
+    margin-right: 0 !important ;
+}
