@@ -6,6 +6,12 @@ Version: 1.0
 */
 .wp-block-group.mainHeader {
     background-image: url('images/test.jpg') ,linear-gradient(#11364a,#0b7da5);
+    color: #fff;
+    font-family: Quantrocento, serif;
+    padding: 1rem 0;
+}
+.wp-block-group.mainHeader nav a{
+    color: #fff;
 }
 
 /* Base font style */
