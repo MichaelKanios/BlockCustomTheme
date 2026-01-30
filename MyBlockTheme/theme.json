@@ -52,10 +52,7 @@
     },
     "blocks": {
       "core/group": {
-        "color": {
-          "background": "#0073aa",
-          "text": "#ffffff"
-        },
+       
         "spacing": {
           "padding": {
             "top": "4rem",
