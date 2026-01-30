@@ -2,6 +2,10 @@
     "$schema": "https://schemas.wp.org/trunk/theme.json",
     "version": 2,
     "settings":{
+      "layout": {
+        "contentSize": "800px",
+        "wideSize": "1200px"
+      },
       "appearanceTools": true,
       "color": {
         "defaultPalette": false,
@@ -107,6 +111,10 @@
       }
     },
     "styles":{
+      "layout": {
+        "contentSize": "800px",
+        "wideSize": "1200px"
+      },
       "typography": {
         "fontFamily":"inter",
         "fontSize":"18px",
