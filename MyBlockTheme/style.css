@@ -12,7 +12,7 @@ Version: 1.0
 }
 /* Navigation links in header */
 .wp-block-group.mainHeader nav a {
-    color: #000000; /* Μαύρο χρώμα */
+    color: #000000 !important; /* Μαύρο χρώμα */
     font-size: 1.2rem; /* Μεγαλύτερο μέγεθος, αλλά μπορείς να αλλάξεις */
     font-weight: 700; /* Προαιρετικά, πιο έντονα */
     text-transform: uppercase; /* Προαιρετικά, αν θέλεις κεφαλαία */
