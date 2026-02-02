@@ -1,11 +1,15 @@
 <!-- wp:template-part {"slug":"header"} /-->
- <!-- wp:group {"tagName":"main",align":"full","layout":{"type":"constrained"}} -->
+
+<!-- wp:group {"tagName":"main","align":"full","layout":{"type":"constrained"}} -->
 <main class="wp-block-group alignfull posthome">
-    <!-- wp:query-title{"type":"archive"} /-->
-    <!-- wp:query {"queryId":1,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":false},"displayLayout":{"type":"list","columns":3},"layout":{"type":"constrained"}} -->
+
+    <!-- wp:query {"queryId":1,"query":{"perPage":10,"postType":"post","order":"desc","orderBy":"date","inherit":true}} -->
     <section class="wp-block-query">
+
+        <!-- wp:query-title {"type":"archive"} /-->
+
         <!-- wp:post-template -->
-            <!-- wp:post-title{"isLink":"true"} /-->
+            <!-- wp:post-title {"isLink":true} /-->
             <!-- wp:post-excerpt /-->
         <!-- /wp:post-template -->
 
@@ -13,14 +17,12 @@
             <!-- wp:query-pagination-previous /-->
             <!-- wp:query-pagination-numbers /-->
             <!-- wp:query-pagination-next /-->
-        <!-- wp:query-pagination -->
-
-
+        <!-- /wp:query-pagination -->
 
     </section>
     <!-- /wp:query -->
-</main>
 
- <!--/wp:group -->
+</main>
+<!-- /wp:group -->
 
 <!-- wp:template-part {"slug":"footer"} /-->
